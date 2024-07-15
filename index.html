@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <h1>VERCEL FAMILIARIZATION EXERCISE</h1><br><br>
+	<p style="color:MediumSeaGreen;"><img src="Images\meghaImage.jpg" alt="Picture of Megha" style="float:right;width:100px;height:100px;"><strong>Submitted By - Megha Panigrahi<br>
+       Email - meghapanigrahi6@gmail.com<br>
+       Current Role - Support lead at SapphireIMS, India<br>
+       Aspiring role - Senior Customer Support Engineer at Vercel, U.S</strong></p><br>
+	 <p>Thank you for giving me the opportunity to learn more about the product through this amazing exercise. I got to know Vercel better after completing the exercise. Through my answers below, I have been completely honest to ensure you get to know me better as well.</p><br>
+	 <p style="color:MediumSeaGreen;"><b>1. From this list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</b></p><br>
+	 <p><strong>5 Most Favourite - Below are my favorite tasks that I am already doing in my current role.</strong></p><br>
+	 <ul>
+	 <li>Dig through logs to troubleshoot a customer's broken project - This task is quite fascinating, as it makes me feel like a software detective, solving intriguing cases for customers and rescuing them from critical and stressful situations.</li>
+	 <li>Manage a support team - It helps me discover how each teammate is unique and possesses abilities that contribute to the team's success. It's like recognizing everyone's strengths and combining them into one superpower, which indirectly leads to the success and growth of each individual</li>
+	 <li>Run ticket review sessions to make sure tone is consistent - This task allows for better control of situations, especially when unforeseen technical errors or unintentional operational mismanagements occur. For instance, delegating tasks when a team member has to handle an emergency medical call becomes smoother with periodic reviews.</li>
+	 <li>Act as a dedicated CSE for a handful of key customers to ensure their success using Vercel - This gives me the opportunity to dive deeper into customer expectations and establish stronger relationships with them. It also allows me to explore the product thoroughly, as I need to act as an advisor to the customer. As a managed service provider, I understand how challenging it is to handle these key customers and the immense learning it adds to both interpersonal and technical skill levels</li>
+	 <li>Work with the product team to develop a new feature based on feedback from customers - I believe that a candidate and an organization should be a great mutual fit. Just as an organization supports an employee's growth, an employee should be equally dedicated to the product's success. My best contribution to product development is gathering customer use cases and adding enhanced features to improve its usability.</li>
+	 </ul><br>
+	 <p><strong>5 least favorite - I rank them the least due to reasons specified</strong></p><br>
+	 <br>
+	 <ul>
+	 <li>Find and recruit teammates for the support team - It's a significant responsibility, and I'm eager to gain more experience in team handling to better understand how my hires can be most productive for the organization</li>
+	 <li>Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems - While these tasks are indeed challenging, they often involve some interruptions or background noise from users, adding a lively and dynamic element to the sessions.</li>
+	 <li>Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites - These tasks can sometimes limit opportunities for self-reflection, making it challenging to ensure our answers are accurate. It's crucial that our responses are correct to avoid any potential misunderstandings.</li>
+	 <li>Help train and onboard new support teammates - While this aspect of teamwork is crucial and inevitable, it can sometimes feel repetitive and lead to stagnation if too much time is spent on it. However, dedicating the right amount of time to this task is essential as it forms the foundation of a strong team</li>
+	 <li>Scheduling time-off coverage and collaborating as part of a growing cohesive support team - As I mentioned in my favorite tasks (#3), I believe in efficient task handling and regular review calls to monitor task progress. This approach ensures smooth execution and minimizes the time needed to schedule time-off coverages.</li>
+	 </ul><br>
+	 <p style="color:MediumSeaGreen;"><b>2. What do you want to learn or do more of at work?</b></p><br>
+	 <p>I am eager to explore myself in a new and different environment to see how my abilities can contribute to the organization. I am particularly interested in learning the modern technologies used at Vercel and immersing myself deeply in the product until I feel a sense of ownership. Strengthening my foundation as a support engineer in this way is important to me before aiming for a promotion to a higher operational level.</p><br>
+	 <p style="color:MediumSeaGreen;"><b>3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?</b></p><br>
+	 <p>Since am currently working on a ticketing tool, there were complaints about a specific project that the ticket listing page was not accessible by users as the page was loading indefinitely. Below were the steps I took to resolve the concern -</p><br>
+	 <ul>
+	 <li>Understood the issue and criticality of the situation from customer perspective.</li>
+	 <li>Tried to reproduce the issue from my end.</li>
+	 <li>Once I identified that the issue was reproducable, I immediately checked the application logs and browser logs to understand if there were any errors.</li>
+	 <li>I enabled the general logs and slow logs next after discovering that there were no errors in application logs.</li>
+	 <li>Through general logs, I identified a MySQL query that was taking infinite time to be executed. Took the same query and tried to execute in separate window which led me to the root cause.</li>
+	 <li>The query didn't have a null condition check enabled due to which one of the tickets in listing page could not return any value leading to the indefinite loading.</li>
+	 <li>I immediately modified the query by adding null condition and the issue was resolved from my end.</li>
+	 <li>I cross-checked the same with customer post which I was confirmed that the issue has been resolved.</li>
+	 <li>As a preventive measure, I instructed the platform teams to add a checklist during production upgrades to make sure all queries used in setup and finetuned and having null condition handled wherever applicable.</li>
+	 </ul><br>
+	 <p style="color:MediumSeaGreen;"><b>4. When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</b></p><br>
+	 <p>While I haven't yet worked directly with Vercel to understand the purposes of Edge Functions, Serverless Functions, and Edge Middleware, but i do have some idea that serverless Functions helps to achieve tasks without depending much on the server usage. This can be a great option in making solutions fast, reactive and might add more range to product services. I'm eager to delve deeper into Vercel's technology to understand their specific applications and contribute effectively.</p><br>
+	 <p style="color:MediumSeaGreen;"><b>5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?</b></p><br>
+	 <p>I will approach the solution in the following steps:</p><br>
+	 <ul>
+	 <li>Request a detailed explanation of what the user is trying to accomplish and the nature of the error being faced.</li>
+	 <li>Ask for supporting snapshots of the error and example codes used to build the framework.</li>
+	 <li>Inquire about the criticality of the issue and its impact on the user.</li>
+	 <li>Assure the user that the collected details will be thoroughly analyzed and provide tentative timelines for further updates.</li>
+	 </ul><br>
+	 <p style="color:MediumSeaGreen;"><b>6. The customer from question 5 replies to your response with the below:
+           “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.” Please write a follow-up reply to the customer.</b></p><br>
+     <p><strong>Hi CustomerName,<br>
+       We sincerely apologize for any inconvenience caused. Please rest assured that our top teams are dedicated to resolving this issue for you.<br>
+       We understand the frustration of addressing additional questions at this time. However, it's crucial for us to gather detailed information about the error pattern and scenario. This is essential for accurately reproducing the issue locally and ensuring a prompt and precise resolution.<br>
+       Your cooperation in providing this information would greatly assist us in resolving the matter swiftly.<br>
+      Thank you for your understanding and patience.<br>
+      Best regards,<br>
+      Megha</strong></p><br>
+	  <p style="color:MediumSeaGreen;">7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.</p><br>
+	  <p>Since Web server configuration isn't my primary expertise currently, I'll approach the customer question with the following steps:</p><br>
+	  <ul>
+	  <li>Send an initial email as follows -<br><strong>Hi CustomerName,<br>Thanks for sharing your queries with us.<br>The requested redirection can be attained by making the necessary changes in the web configuration file in the directory of the website.<br> Kindly send us the file so that we shall review the code and suggest the changes to achieve the same.<br>Thanks and regards,<br>Megha</strong></li>
+	  <li>At the backend, I'll thoroughly grasp the technical steps required for the task.</li>
+	  <li>I'll educate myself using online resources or seek guidance from colleagues to attempt the task independently.</li>
+	  <li>Once successful, I'll document the steps and outline them clearly in an email reply to the customer with snapshots on top of the customer response to my initial email.</li>
+	  <li>Afterward, I'll follow up with customer to confirm if the solution works and to offer any additional assistance that might be required.</li>
+	  </ul><br>
+	  <p style="color:MediumSeaGreen;"><b>8. A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.</b></p><br>
+	  <p><strong>Hi CustomerName, <br> Thanks for sharing your query with us. <br> For making a project not to be indexed by search engines, we require to add the meta element in the head section to the code of the website page which specifies content as noindex. Following is the syntax for your reference - <br>
+      <img src="Images\Syntax.png" alt="Image of the syntax"><br>
+	  Hope it clarifies. Please connect with us in case you need any further assistance with this regards.</strong></p><br>
+	  <p style="color:MediumSeaGreen;"><b>9. What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?</b></p><br>
+	  <p>I think the most common problems that customers might ask Vercel for help with is issues in deployments due to misconfiguration or missing steps of product usage. Like missing scripts, incorrectly defined directories, missing dependency files or human errors like typo in codes/code elements. <br> On a short term basis I will help the customers through debugging the issue immediately by analyzing logs and helping the customer to understand better via correcting the errors in live sessions. <br> On a long term, I will document all such cases along with their resolution steps and prepare a SOP for users to follow all the process of deployment without any misses or troubleshoot on their own by including the resolution for the most common cases with easy to follow steps. I will also look into the matter to check if there can be any improvements made in the product which can help us to reduce such repetitive incidents to make it more user friendly.</p><br>
+	  <p style="color:MediumSeaGreen;"><b>10. How could we improve or alter this familiarisation exercise?</b></p><br>
+	  <p>It was an amazing exercise to gain some basic knowledge about Vercel, and it really piqued my interest in exploring the product further. As an improvement suggestion, I recommend, incorporating a timer feature on Vercel that calculates the entire time taken for project completion.</p>
+	  
+
+  </body>
+</html>
